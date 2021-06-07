@@ -14,5 +14,5 @@ The balanced accuracy score is 65%.
 The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
 
-![alt text](
+![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/Oversampling.png)
 
