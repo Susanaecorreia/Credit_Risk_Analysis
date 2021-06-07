@@ -25,5 +25,36 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 
 ![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/SMOTE.png)
 
+## ENSEMBLE CLASSIFIER
+Now, the balanced accuracy score is high to about 93%.
+The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+
+![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/EmsembleClassifier.png)
+
+## RANDOM FOREST
+The balanced accuracy score improved to about 79%.
+The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+
+![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/BalancedRandomForest.png)
+
+## SMOTEENN
+The balanced accuracy score is about 62%.
+The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.
+Due to the high number of false positives, the low_risk sensitivity is 57%.
+
+![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/CombOverUnder.png)
+
+## Undersampling
+Here the balanced accuracy score is down to about 52%.
+The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
+Due to the high number of false positives, the low_risk sensitivity is only 40%.
+
+![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/Undersampling.png)
+
+
+
+
 
 
