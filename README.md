@@ -8,9 +8,10 @@ In this project, we use Python to build and evaluate several machine learning mo
 - Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 - We will evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
+
 # Results (Balanced Accuracy Scores, Confusion Matrixes and Imbalanced Classification Reports)
 
-## Oversampling
+## OVERSAMPLING
 The balanced accuracy score is 65%.
 The high_risk precision is about 1% only with 61% sensitivity which makes a F1 of 2% only.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
@@ -46,7 +47,7 @@ Due to the high number of false positives, the low_risk sensitivity is 57%.
 
 ![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/CombOverUnder.png)
 
-## Undersampling
+## UNDERSAMPLING
 Here the balanced accuracy score is down to about 52%.
 The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
 Due to the high number of false positives, the low_risk sensitivity is only 40%.
@@ -54,7 +55,8 @@ Due to the high number of false positives, the low_risk sensitivity is only 40%.
 ![alt text](https://github.com/Susanaecorreia/Credit_Risk_Analysis/blob/main/linear_regression_salary/Undersampling.png)
 
 
+# Summary
 
-
+All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. However, overall, the best model that was generated to predict the unbalanced classification problem of credit risk is the Ensemble Classifier, therefore I would recommend the Ensemble Classifier due to its higher overall scores for a classification prediction.
 
 
